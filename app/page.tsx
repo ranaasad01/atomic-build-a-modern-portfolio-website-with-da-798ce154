@@ -1,10 +1,7 @@
 import { Header } from "@/components/layout/Header";
 import { Hero } from "@/components/sections/Hero";
-import { About } from "@/components/sections/About";
-import { Skills } from "@/components/sections/Skills";
-import { Projects } from "@/components/sections/Projects";
-import { ContactSection } from "@/components/sections/ContactSection";
-import { Footer } from "@/components/layout/Footer";
+import { About, Projects, Footer } from "@/components/sections/About";
+import { Skills, ContactSection } from "@/components/sections/Skills";
 
 export default function Page() {
   return (
