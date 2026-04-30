@@ -58,7 +58,7 @@ export function Header() {
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
             >
-              <span className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-white text-sm font-bold">
+              <span className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-white text-sm font-bold" style={{ backgroundColor: 'yellow' }}>
                 AR
               </span>
               <span className="hidden sm:block gradient-text">Asad rana</span>
