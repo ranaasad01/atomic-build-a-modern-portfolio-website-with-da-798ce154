@@ -151,7 +151,7 @@ export const socialLinks = {
 };
 
 export const personalInfo = {
-  name: "Alex Morgan",
+  name: "Asad rana",
   title: "Full-Stack Engineer",
   tagline: "I build fast, accessible, and beautiful web experiences.",
   bio: "I'm a full-stack engineer with 5+ years of experience crafting high-performance web applications. I specialize in React, Next.js, and Node.js — turning complex problems into elegant, user-friendly solutions. When I'm not coding, I'm contributing to open source, writing technical articles, or exploring the mountains.",
