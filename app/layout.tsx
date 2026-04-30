@@ -4,6 +4,9 @@ import { GeistMono } from "geist/font/mono";
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
 
+// NOTE: The contact API route is at app/api/contact/route.ts
+// It is a mock handler — replace with Resend/Nodemailer in production.
+
 export const metadata: Metadata = {
   title: {
     default: "Alex Morgan — Full-Stack Engineer",

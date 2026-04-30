@@ -90,3 +90,21 @@ export const cardHover = {
     transition: { duration: 0.25, ease: "easeOut" },
   },
 };
+
+// ─── Contact API Route Handler (app/api/contact/route.ts) ────────────────────
+// This is the handler logic. The actual route file lives at app/api/contact/route.ts.
+// In production, replace the mock with Resend: https://resend.com/docs
+
+export async function contactRouteHandler(body: {
+  name: string;
+  email: string;
+  subject?: string;
+  message: string;
+}): Promise<{ ok: boolean; message: string }> {
+  if (!body.name || !body.email || !body.message) {
+    return { ok: false, message: "Missing required fields." };
+  }
+  // Mock: log and return success
+  console.log("[Contact]", body);
+  return { ok: true, message: "Message received!" };
+}
