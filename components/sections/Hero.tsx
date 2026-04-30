@@ -75,7 +75,7 @@ export function Hero() {
             variants={fadeInUp}
             className="flex flex-col sm:flex-row items-center gap-4 mb-16"
           >
-            <button onClick={() => handleScroll("projects")} className="btn-primary group">
+            <button onClick={() => handleScroll("projects")} className="btn-primary group" style={{ color: "Pink", backgroundColor: "Red" }}>
               View My Work
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
             </button>

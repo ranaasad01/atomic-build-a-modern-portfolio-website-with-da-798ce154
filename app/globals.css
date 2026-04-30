@@ -143,3 +143,8 @@
     scrollbar-width: none;
   }
 }
+
+section#home > div:nth-child(2) > div:nth-child(1) > div:nth-child(5) > button:nth-child(1) {
+  color: Pink;
+  background-color: Red;
+}

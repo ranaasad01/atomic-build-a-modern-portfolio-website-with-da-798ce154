@@ -1,7 +1,8 @@
 "use client";
 
-import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
+import { useTheme } from "next-themes";
+
 import { Moon, Sun } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -25,6 +26,7 @@ export function ThemeToggle() {
       className="relative w-9 h-9 rounded-lg bg-surface hover:bg-surface-hover border border-border
                  flex items-center justify-center transition-colors duration-200
                  focus:outline-none focus:ring-2 focus:ring-primary/50"
+      style={{ color: "Pink", backgroundColor: "Red" }}
       whileTap={{ scale: 0.9 }}
       aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
     >

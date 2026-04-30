@@ -9,7 +9,7 @@ import { personalInfo, projects, socialLinks } from "@/lib/data";
 import { Badge } from "@/components/ui/Badge";
 
 const highlights = [
-  "5+ years building production web applications",
+  "15+ years building production web applications",
   "Contributed to 10+ open source projects",
   "Mentored junior developers at 2 startups",
   "Speaker at local React & Node.js meetups",
@@ -70,7 +70,7 @@ export function About() {
                 transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
                 className="absolute -left-6 bottom-12 bg-surface border border-border rounded-xl px-3 py-2 shadow-glass text-xs font-medium"
               >
-                🚀 5+ Years Exp.
+                🚀 15+ Years Exp.
               </motion.div>
             </div>
 
