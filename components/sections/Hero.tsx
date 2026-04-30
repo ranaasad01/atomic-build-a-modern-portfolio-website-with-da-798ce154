@@ -48,7 +48,7 @@ export function Hero() {
           <motion.div variants={fadeInUp} className="mb-8">
             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold border border-primary/30 bg-primary/5 text-primary">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-              {personalInfo.availability}
+              Asad Rana
             </span>
           </motion.div>
 
