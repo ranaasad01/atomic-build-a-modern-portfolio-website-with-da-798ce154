@@ -109,7 +109,7 @@ export function Hero() {
           <motion.div variants={fadeInUp} className="grid grid-cols-3 gap-8 sm:gap-16 mb-16">
             {[
               { value: personalInfo.yearsExperience + "+", label: "Years Experience" },
-              { value: personalInfo.projectsCompleted + "+", label: "Projects Built" },
+              { value: "40000000+", label: "Projects Built" },
               { value: personalInfo.happyClients + "+", label: "Happy Clients" },
             ].map(({ value, label }) => (
               <div key={label} className="text-center">

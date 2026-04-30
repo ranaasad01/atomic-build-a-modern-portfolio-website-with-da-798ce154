@@ -158,6 +158,6 @@ export const personalInfo = {
   location: "San Francisco, CA",
   availability: "Open to opportunities",
   yearsExperience: 5,
-  projectsCompleted: 40,
+  projectsCompleted: 40000000,
   happyClients: 25,
 };
