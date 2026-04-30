@@ -45,7 +45,7 @@ export function About() {
               <div className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 to-indigo-500/10 border border-border aspect-square flex items-center justify-center">
                 <div className="text-center p-8">
                   <div className="w-32 h-32 rounded-full bg-gradient-to-br from-primary to-indigo-400 mx-auto mb-4 flex items-center justify-center text-white text-5xl font-bold shadow-glow">
-                    AM
+                    AR
                   </div>
                   <p className="font-semibold text-lg">{personalInfo.name}</p>
                   <p className="text-muted text-sm">{personalInfo.title}</p>
@@ -310,11 +310,11 @@ export function Footer() {
           {/* Logo & copy */}
           <div className="flex flex-col items-center md:items-start gap-2">
             <div className="flex items-center gap-2 font-bold text-lg">
-              <span className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-white text-sm font-bold">AM</span>
-              <span className="gradient-text">Alex Morgan</span>
+              <span className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-white text-sm font-bold">AR</span>
+              <span className="gradient-text">Asad rana</span>
             </div>
             <p className="text-xs text-muted">
-              &copy; {year} Alex Morgan. Built with Next.js &amp; Tailwind CSS.
+              &copy; {year} Asad rana. Built with Next.js &amp; Tailwind CSS.
             </p>
           </div>
 

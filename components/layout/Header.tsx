@@ -59,9 +59,9 @@ export function Header() {
               whileTap={{ scale: 0.98 }}
             >
               <span className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-white text-sm font-bold">
-                AM
+                AR
               </span>
-              <span className="hidden sm:block gradient-text">Alex Morgan</span>
+              <span className="hidden sm:block gradient-text">Asad rana</span>
             </motion.a>
 
             {/* Desktop Nav */}
