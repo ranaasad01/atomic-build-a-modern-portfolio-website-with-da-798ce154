@@ -9,8 +9,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "Alex Morgan — Full-Stack Engineer",
-    template: "%s | Alex Morgan",
+    default: "Asad Rana — Full-Stack Engineer",
+    template: "%s | Asad Rana",
   },
   description:
     "Full-stack engineer specializing in React, Next.js, and Node.js. Building fast, accessible, and beautiful web experiences.",
@@ -22,20 +22,20 @@ export const metadata: Metadata = {
     "web development",
     "portfolio",
   ],
-  authors: [{ name: "Alex Morgan" }],
-  creator: "Alex Morgan",
+  authors: [{ name: "Asad Rana" }],
+  creator: "Asad Rana",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://alexmorgan.dev",
-    title: "Alex Morgan — Full-Stack Engineer",
+    title: "Asad Rana — Full-Stack Engineer",
     description:
       "Full-stack engineer specializing in React, Next.js, and Node.js. Building fast, accessible, and beautiful web experiences.",
-    siteName: "Alex Morgan Portfolio",
+    siteName: "Asad Rana Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alex Morgan — Full-Stack Engineer",
+    title: "Asad Rana — Full-Stack Engineer",
     description:
       "Full-stack engineer specializing in React, Next.js, and Node.js.",
     creator: "@alexmorgan",

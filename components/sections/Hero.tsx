@@ -57,7 +57,7 @@ export function Hero() {
             className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 text-balance"
           >
             Hi, I&apos;m{" "}
-            <span className="gradient-text">hshgdfhgfdfd</span>
+            <span className="gradient-text">Asad Rana</span>
           </motion.h1>
 
           <motion.div variants={fadeInUp} className="mb-6 h-10 overflow-hidden">
