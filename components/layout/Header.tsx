@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Github } from "lucide-react";
 import { ThemeToggle } from "@/components/ui/ThemeToggle";
 import { useActiveSection } from "@/hooks/useActiveSection";
 import { cn } from "@/lib/utils";
@@ -96,6 +96,16 @@ export function Header() {
             {/* Right side */}
             <div className="flex items-center gap-3">
               <ThemeToggle />
+              <a
+                href="https://github.com/ranaasad01"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-9 h-9 rounded-lg bg-surface hover:bg-surface-hover border border-border
+                           flex items-center justify-center transition-colors"
+                aria-label="GitHub"
+              >
+                <Github size={16} />
+              </a>
               <a
                 href="#contact"
                 onClick={(e) => { e.preventDefault(); handleNavClick("#contact"); }}

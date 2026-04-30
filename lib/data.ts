@@ -144,7 +144,7 @@ export const skillCategories: SkillCategory[] = [
 ];
 
 export const socialLinks = {
-  github: "https://github.com",
+  github: "https://github.com/ranaasad01",
   linkedin: "https://linkedin.com",
   twitter: "https://twitter.com",
   email: "hello@alexmorgan.dev",
