@@ -79,7 +79,7 @@ export function Hero() {
               View My Work
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
             </button>
-            <button onClick={() => handleScroll("contact")} className="btn-secondary group" style={{ backgroundColor: "green" }}>
+            <button onClick={() => handleScroll("contact")} className="btn-secondary group" style={{ backgroundColor: "green", color: "yellow" }}>
               <Download size={16} />
               Download CV
             </button>
